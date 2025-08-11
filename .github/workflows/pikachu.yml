@@ -22,12 +22,15 @@ jobs:
             dist/pokemon-snake.svg
             dist/pokemon-snake-dark.svg
 
+      - name: Install xmlstarlet and prepare dist folder
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y libxml2-utils
+          mkdir -p dist
+          chmod -R u+w dist
+
       - name: Add Pokémon Sprite
         run: |
-          sudo apt-get update
-          sudo apt-get install -y libxml2-utils
-
-          mkdir -p dist
           PIKACHU_URL="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
           
           for svg_file in dist/pokemon-snake*.svg; do
