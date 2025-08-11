@@ -22,27 +22,32 @@ jobs:
             dist/pokemon-snake.svg
             dist/pokemon-snake-dark.svg
 
-      - name: Prepare Pokémon Overlay
+      - name: Add Pokémon Sprite
         run: |
-          mkdir -p dist/overlay
-          cat <<EOF > dist/overlay/pikachu.svg
-          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-            <image href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" x="0" y="0" width="20" height="20"/>
-          </svg>
-          EOF
+          # Instala dependências
+          sudo apt-get update
+          sudo apt-get install -y libxml2-utils
 
-      - name: Combine SVGs (Snake + Pokémon)
-        uses: yokawasa/action-svg-combiner@v0.1
-        with:
-          source-svg: dist/pokemon-snake.svg
-          overlay-svg: dist/overlay/pikachu.svg
-          output-svg: dist/pokemon-snake-final.svg
+          mkdir -p dist
+          PIKACHU_URL="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+          
+          for svg_file in dist/pokemon-snake*.svg; do
+            xmlstarlet ed \
+              --subnode "//svg" --type elem -n "image" \
+              --var newnode '$prev' \
+              --insert '$newnode' --type attr -n "href" -v "$PIKACHU_URL" \
+              --insert '$newnode' --type attr -n "x" -v "5" \
+              --insert '$newnode' --type attr -n "y" -v "5" \
+              --insert '$newnode' --type attr -n "width" -v "20" \
+              --insert '$newnode' --type attr -n "height" -v "20" \
+              "$svg_file" > "${svg_file}.tmp"
+            mv "${svg_file}.tmp" "$svg_file"
+          done
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
-          keep_files: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
