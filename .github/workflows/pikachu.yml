@@ -22,25 +22,27 @@ jobs:
             dist/pokemon-snake.svg
             dist/pokemon-snake-dark.svg
 
-      - name: Add Pokémon Sprite
+      - name: Prepare Pokémon Overlay
         run: |
-          mkdir -p dist
-          cd dist
-          echo '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-            <image href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" x="5" y="5" width="20" height="20"/>
-            <image href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" x="5" y="5" width="20" height="20" opacity="0.3"/>
-          </svg>' > overlay.svg
-          
-          sudo apt-get install -y svgo
-          svgo --input=pokemon-snake.svg --enable=mergeStyles --enable=removeTitle --output=temp.svg
-          echo 'Combining SVGs...'
-          sed -i '/<svg/r overlay.svg' temp.svg
-          mv temp.svg pokemon-snake.svg
+          mkdir -p dist/overlay
+          cat <<EOF > dist/overlay/pikachu.svg
+          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+            <image href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" x="0" y="0" width="20" height="20"/>
+          </svg>
+          EOF
+
+      - name: Combine SVGs (Snake + Pokémon)
+        uses: yokawasa/action-svg-combiner@v0.1
+        with:
+          source-svg: dist/pokemon-snake.svg
+          overlay-svg: dist/overlay/pikachu.svg
+          output-svg: dist/pokemon-snake-final.svg
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
+          keep_files: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
