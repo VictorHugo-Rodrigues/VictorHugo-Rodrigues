@@ -12,6 +12,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Prepare dist folder
+        run: mkdir -p dist
+
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
@@ -22,12 +25,10 @@ jobs:
             dist/pokemon-snake.svg
             dist/pokemon-snake-dark.svg
 
-      - name: Install xmlstarlet and prepare dist folder
+      - name: Install xmlstarlet
         run: |
           sudo apt-get update -y
           sudo apt-get install -y libxml2-utils
-          mkdir -p dist
-          chmod -R u+w dist
 
       - name: Add Pokémon Sprite
         run: |
