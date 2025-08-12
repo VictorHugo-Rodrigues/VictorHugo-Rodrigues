@@ -19,8 +19,6 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: VictorHugo-Rodrigues
-          color: "#FFCC00"
-          background: "#4CAF50"
           outputs: |
             dist/pokemon-snake.svg
             dist/pokemon-snake-dark.svg
@@ -33,7 +31,7 @@ jobs:
       - name: Add Pokémon Sprite
         run: |
           PIKACHU_URL="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
-          
+
           for svg_file in dist/pokemon-snake*.svg; do
             xmlstarlet ed \
               --subnode "//svg" --type elem -n "image" \
