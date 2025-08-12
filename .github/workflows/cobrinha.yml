@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: platane/github-contribution-grid-snake@v0.11.0
+      - uses: Platane/github-contribution-grid-snake@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           output_path: ./output/github-contribution-grid-snake-dark.svg
