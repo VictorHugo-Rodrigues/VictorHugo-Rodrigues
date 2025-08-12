@@ -36,7 +36,6 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 
 ---
 
-### Último Projeto 
 
 <!--LAST_PROJECT_START-->
 ### Último Projeto 
