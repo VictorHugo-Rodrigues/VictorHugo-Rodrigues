@@ -45,3 +45,5 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 ![Snake animation](https://raw.githubusercontent.com/VictorHugo-Rodrigues/VictorHugo-Rodrigues/output/github-contribution-grid-snake-dark.svg)
 
 ---
+
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=VictorHugo-Rodrigues.VictorHugo-Rodrigues)
