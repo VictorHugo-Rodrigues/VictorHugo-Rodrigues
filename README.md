@@ -1,7 +1,5 @@
-<!-- Cabeçalho animado -->
-![header](https://capsule-render.vercel.app/api?type=wave&color=0:4CAF50,100:2196F3&height=200&section=header&text=Victor%20Hugo%20Rodrigues&fontSize=40&fontColor=ffffff&animation=fadeIn)
 
-# Victor Hugo Rodrigues  
+# Olá, sou o Victor Hugo! 👋
 Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 
 🎓 Atualmente sou estudante de **Ciência da Computação** na Estácio, com foco em **desenvolvimento Full-Stack**.  
@@ -40,6 +38,3 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 ![Snake animation](https://raw.githubusercontent.com/VictorHugo-Rodrigues/VictorHugo-Rodrigues/output/github-contribution-grid-snake-dark.svg)
 
 ---
-
-<!-- Rodapé animado -->
-![footer](https://capsule-render.vercel.app/api?type=wave&color=0:2196F3,100:4CAF50&height=150&section=footer)
