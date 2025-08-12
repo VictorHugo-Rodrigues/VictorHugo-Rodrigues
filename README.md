@@ -1,12 +1,6 @@
 
 # Olá, sou o Victor! 
 
-<p align="left">
-  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif" alt="Squirtle animado" width="50" style="margin-right: 10px;" />
-  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif" alt="Charmander animado" width="50" style="margin-right: 10px;" />
-  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" alt="Bulbasaur animado" width="50" />
-</p>
-
 
 Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 
