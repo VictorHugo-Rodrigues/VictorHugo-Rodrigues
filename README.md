@@ -1,5 +1,5 @@
 
-# Olá, sou o Victor! 👋
+# Olá, sou o Victor! 
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif" alt="Squirtle animado" width="50" style="margin-right: 10px;" />
@@ -17,7 +17,7 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 
 ---
 
-### 🛠️ Tecnologias e Ferramentas
+###  Tecnologias e Ferramentas
 
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="40"/>
@@ -29,14 +29,14 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 
 ---
 
-### 📊 Estatísticas do GitHub
+###  Estatísticas do GitHub
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=VictorHugo-Rodrigues&show_icons=true&theme=vision-friendly-dark)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=VictorHugo-Rodrigues&layout=compact&theme=vision-friendly-dark)
 
 ---
 
-### 🌐 Conecte-se comigo
+###  Conecte-se comigo
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-hugo-9100b2263)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:victordarc81@gmail.com)
 
@@ -45,5 +45,3 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 ![Snake animation](https://raw.githubusercontent.com/VictorHugo-Rodrigues/VictorHugo-Rodrigues/output/github-contribution-grid-snake-dark.svg)
 
 ---
-
-![Visitantes](https://visitor-badge.laobi.icu/badge?page_id=VictorHugo-Rodrigues.VictorHugo-Rodrigues&colors=4CAF50,81C784,A5D6A7&left_text=Visitantes)
