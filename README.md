@@ -46,4 +46,4 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 
 ---
 
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=VictorHugo-Rodrigues.VictorHugo-Rodrigues)
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=VictorHugo-Rodrigues.VictorHugo-Rodrigues&colors=yellow,orange,red)
