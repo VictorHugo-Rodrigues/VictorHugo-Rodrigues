@@ -1,0 +1,45 @@
+name: Update Last Project in README
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Get last repo info
+        id: repo-info
+        uses: octokit/request-action@v2.x
+        with:
+          route: GET /users/${{ github.repository_owner }}/repos
+          mediaType: '{"format":"json"}'
+          per_page: 1
+          sort: created
+          direction: desc
+
+      - name: Update README.md
+        run: |
+          REPO_NAME=$(echo '${{ steps.repo-info.outputs.data }}' | jq -r '.[0].name')
+          REPO_DESC=$(echo '${{ steps.repo-info.outputs.data }}' | jq -r '.[0].description')
+          REPO_URL="https://github.com/${{ github.repository_owner }}/$REPO_NAME"
+
+          LINE="### Último Projeto \n\n**[$REPO_NAME]($REPO_URL)**  \n$REPO_DESC"
+
+          awk '/<!--LAST_PROJECT_START-->/ {print; print "'"$LINE"'"; skip=1; next} /<!--LAST_PROJECT_END-->/ {skip=0} !skip' README.md > README.tmp && mv README.tmp README.md
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Atualiza último projeto automaticamente"
+          git push
+        continue-on-error: true
