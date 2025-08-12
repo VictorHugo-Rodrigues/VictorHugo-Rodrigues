@@ -17,12 +17,6 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 
 ---
 
-### 🌐 Conecte-se comigo
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-hugo-9100b2263)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:victordarc81@gmail.com)
-
----
-
 ### 🛠️ Tecnologias e Ferramentas
 
 <p>
@@ -42,7 +36,11 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 
 ---
 
-### 🐍 Snake Game de Contribuições
+### 🌐 Conecte-se comigo
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-hugo-9100b2263)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:victordarc81@gmail.com)
+
+---
 
 ![Snake animation](https://raw.githubusercontent.com/VictorHugo-Rodrigues/VictorHugo-Rodrigues/output/github-contribution-grid-snake-dark.svg)
 
