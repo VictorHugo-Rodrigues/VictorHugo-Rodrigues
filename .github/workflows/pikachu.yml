@@ -25,12 +25,11 @@ jobs:
             dist/pokemon-snake.svg
             dist/pokemon-snake-dark.svg
 
-      - name: Install xmlstarlet
-        run: |
-          sudo apt-get update -y
-          sudo apt-get install -y xmlstarlet
-          which xmlstarlet
-          xmlstarlet --version
+      - name: Atualizar pacotes
+        run: sudo apt-get update -y
+
+      - name: Instalar xmlstarlet
+        run: sudo apt-get install -y xmlstarlet
 
       - name: Add Pokémon Sprite
         run: |
