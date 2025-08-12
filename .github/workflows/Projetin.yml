@@ -11,6 +11,7 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -19,11 +20,9 @@ jobs:
         id: repo-info
         uses: octokit/request-action@v2.x
         with:
-          route: GET /users/${{ github.repository_owner }}/repos
+          route: GET /users/${{ github.repository_owner }}/repos?per_page=1&sort=created&direction=desc
           mediaType: '{"format":"json"}'
-          per_page: 1
-          sort: created
-          direction: desc
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update README.md
         run: |
