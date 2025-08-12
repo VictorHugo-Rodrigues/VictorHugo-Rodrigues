@@ -46,4 +46,4 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 
 ---
 
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=VictorHugo-Rodrigues.VictorHugo-Rodrigues&colors=yellow,orange,red)
+![Visitor Count](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FVictorHugo-Rodrigues%2FVictorHugo-Rodrigues&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=visitors&edge_flat=false)
