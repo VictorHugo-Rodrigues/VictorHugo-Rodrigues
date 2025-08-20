@@ -34,8 +34,8 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 <!--LAST_PROJECT_START-->
 ### Último Projeto 
 
-**[cadastro-usuarios](https://github.com/VictorHugo-Rodrigues/cadastro-usuarios)**  
-Sistema de Cadastro de Usuários em Java com persistência em CSV, CRUD completo, validação de dados e senhas protegidas com hash SHA-256.
+**[flask-chatbot-ai](https://github.com/VictorHugo-Rodrigues/flask-chatbot-ai)**  
+Chatbot interativo com Flask e OpenAI API
 <!--LAST_PROJECT_END-->
 
 ---
