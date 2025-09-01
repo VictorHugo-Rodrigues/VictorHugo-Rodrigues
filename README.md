@@ -34,8 +34,8 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 <!--LAST_PROJECT_START-->
 ### Último Projeto 
 
-**[flask-chatbot-ai](https://github.com/VictorHugo-Rodrigues/flask-chatbot-ai)**  
-Chatbot interativo com Flask e OpenAI API
+**[desafio-xadrez](https://github.com/VictorHugo-Rodrigues/desafio-xadrez)**  
+Projeto de Xadrez - Níveis Novato, Aventureiro e Mestre
 <!--LAST_PROJECT_END-->
 
 ---
