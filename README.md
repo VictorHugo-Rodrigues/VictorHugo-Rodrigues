@@ -34,8 +34,8 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 <!--LAST_PROJECT_START-->
 ### Último Projeto 
 
-**[desafio-xadrez](https://github.com/VictorHugo-Rodrigues/desafio-xadrez)**  
-Projeto de Xadrez - Níveis Novato, Aventureiro e Mestre
+**[desafio-super-trunfo](https://github.com/VictorHugo-Rodrigues/desafio-super-trunfo)**  
+null
 <!--LAST_PROJECT_END-->
 
 ---
