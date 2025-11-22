@@ -34,7 +34,7 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 <!--LAST_PROJECT_START-->
 ### Último Projeto 
 
-**[desafio-super-trunfo](https://github.com/VictorHugo-Rodrigues/desafio-super-trunfo)**  
+**[Desafio-Eclipse](https://github.com/VictorHugo-Rodrigues/Desafio-Eclipse)**  
 null
 <!--LAST_PROJECT_END-->
 
