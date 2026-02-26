@@ -36,7 +36,7 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 ### Último Projeto 
 
 **[Desafio-Eclipse](https://github.com/VictorHugo-Rodrigues/Desafio-Eclipse)**  
-Sistema de gestão de reservas para hotel desenvolvido em Java com Spring Boot.
+null
 <!--LAST_PROJECT_END-->
 
 ---
