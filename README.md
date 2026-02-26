@@ -1,5 +1,4 @@
-
-# Olá, sou o Victor! 
+# Olá, sou o Victor! 👋
 
 
 Estudante de Ciência da Computação | Desenvolvedor Full-Stack
@@ -11,7 +10,7 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 
 ---
 
-###  Tecnologias e Ferramentas
+### 🚀 Tecnologias e Ferramentas
 
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="40"/>
@@ -23,29 +22,30 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 
 ---
 
-###  Estatísticas do GitHub
+### 📊 Estatísticas do GitHub
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=VictorHugo-Rodrigues&show_icons=true&theme=vision-friendly-dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=VictorHugo-Rodrigues&layout=compact&theme=vision-friendly-dark)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=VictorHugo-Rodrigues&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&cache_seconds=1800)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=VictorHugo-Rodrigues&layout=compact&theme=tokyonight&count_private=true&cache_seconds=1800)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=VictorHugo-Rodrigues&theme=tokyonight)
 
 ---
-
 
 <!--LAST_PROJECT_START-->
 ### Último Projeto 
 
 **[Desafio-Eclipse](https://github.com/VictorHugo-Rodrigues/Desafio-Eclipse)**  
-null
+Sistema de gestão de reservas para hotel desenvolvido em Java com Spring Boot.
 <!--LAST_PROJECT_END-->
 
 ---
 
-###  Conecte-se comigo
+### 🌎 Conecte-se comigo
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-hugo-rodrigues-9100b2263/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:victordarc81@gmail.com)
 
 ---
 
 ![Snake animation](https://raw.githubusercontent.com/VictorHugo-Rodrigues/VictorHugo-Rodrigues/output/github-contribution-grid-snake-dark.svg)
-
----
