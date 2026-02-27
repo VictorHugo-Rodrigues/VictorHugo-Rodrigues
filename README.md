@@ -5,7 +5,7 @@ Estudante de Ciência da Computação | Desenvolvedor Full-Stack
 
 🎓 Atualmente sou estudante de **Ciência da Computação** na Estácio, com foco em **desenvolvimento Full-Stack**.  
 💻 Trabalho e estudo com **Java, JavaScript, Python, HTML e CSS**.  
-🚀 Busco minha primeira oportunidade na área de **T.I** — seja como **Estagiário** ou **Desenvolvedor Júnior**.  
+🚀 Busco minha primeira oportunidade na área de **T.I**  seja como **Estagiário** ou **Desenvolvedor Júnior**.  
 📚 Estou sempre aprendendo e desenvolvendo projetos para ampliar minhas habilidades.
 
 ---
